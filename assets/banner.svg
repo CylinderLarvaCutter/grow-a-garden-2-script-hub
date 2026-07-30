@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f14"/>
+      <stop offset="55%" stop-color="#0e2a1a"/>
+      <stop offset="100%" stop-color="#061510"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3ddc84" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3ddc84" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#16a34a" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <circle cx="120" cy="70" r="90" fill="#22c55e" opacity="0.07"/>
+  <circle cx="1080" cy="300" r="110" fill="#16a34a" opacity="0.08"/>
+  <circle cx="1000" cy="60" r="50" fill="#4ade80" opacity="0.06"/>
+  <circle cx="80" cy="300" r="60" fill="#4ade80" opacity="0.06"/>
+
+  <path d="M60 40 Q90 10 120 40 Q90 70 60 40 Z" fill="url(#leaf)"/>
+  <path d="M1130 50 Q1160 20 1190 50 Q1160 80 1130 50 Z" fill="url(#leaf)"/>
+  <path d="M1140 320 Q1170 290 1200 320 Q1170 350 1140 320 Z" fill="url(#leaf)"/>
+  <path d="M40 320 Q70 290 100 320 Q70 350 40 320 Z" fill="url(#leaf)"/>
+
+  <line x1="150" y1="330" x2="150" y2="300" stroke="#4ade80" stroke-width="2" opacity="0.15"/>
+  <line x1="1050" y1="30" x2="1050" y2="60" stroke="#4ade80" stroke-width="2" opacity="0.15"/>
+  <line x1="200" y1="40" x2="200" y2="20" stroke="#4ade80" stroke-width="2" opacity="0.12"/>
+  <line x1="1000" y1="330" x2="1000" y2="310" stroke="#4ade80" stroke-width="2" opacity="0.12"/>
+
+  <circle cx="150" cy="180" r="3" fill="#4ade80" opacity="0.3"/>
+  <circle cx="1050" cy="150" r="3" fill="#4ade80" opacity="0.25"/>
+  <circle cx="600" cy="60" r="2.5" fill="#4ade80" opacity="0.3"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" font-weight="700" fill="#ffffff">
+    <tspan x="600" dy="0">Grow Garden 2 Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Script hub for Grow A Garden 2 players — auto-plant, harvest triggers, and</tspan>
+    <tspan x="600" dy="30">merchant alerts without tab-switch…</tspan>
+  </text>
+</svg>
